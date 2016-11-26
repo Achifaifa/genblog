@@ -27,7 +27,7 @@ except:
     exit()
 
 # Compose entry
-entry=markdown.markdown(entry_text.decode("UTF-8"), extensions=['fenced_code']).replace("<pre>","<pre style='margin:50;'>")
+entry=markdown.markdown(entry_text.decode("UTF-8"), extensions=['fenced_code'])
 entry=header+entry+footer
 
 # Write entry to file
