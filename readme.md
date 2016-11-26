@@ -1,3 +1,3 @@
 #GENBLOG
 
-Static page-based blog generator (WIP)
+Static page blog generator (WIP)
